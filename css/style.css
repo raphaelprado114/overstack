@@ -142,6 +142,11 @@ color: #9eff8e;
 background: #9dff8e4f; 
 }
 
+.headline .textheadline{
+  border: 3px solid var(--darkblue);
+  border-radius: 40px;
+}
+
 .headline .imgs{
   display: grid;
 }
