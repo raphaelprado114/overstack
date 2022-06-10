@@ -164,6 +164,19 @@ top: 50%;
   max-width: 150px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----   HEADLINE  ---- */
 
 
@@ -208,6 +221,11 @@ font-size: 50px;
 
 
 
+
+
+
+
+
 /* ------- segunda section ------- */
 
 .call{
@@ -241,6 +259,14 @@ font-size: 50px;
   margin-left: calc(50% - 200px);
   max-width: 400px;
 }
+
+
+
+
+
+
+
+
 
 
 /* -------- terceira section -------- */
@@ -347,9 +373,6 @@ font-size: 50px;
           text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           z-index: 10;
         }
-      
-    
-  
 
   .card:hover .face.face2 {
     height: 60px;
@@ -418,8 +441,18 @@ font-size: 50px;
     content: "\f109";
   }
 
-/* ------------------- Conhecer a over  -------------------- */
 
+
+
+
+
+
+
+
+
+
+
+/* ------------------- Conhecer a over  -------------------- */
 
 .conhecer {
 background: linear-gradient(8deg, var(--offbuel), var(--offpink) );
@@ -445,11 +478,14 @@ padding: 60px 7%;
 
 
 
+
+
+
+
+
+
+
 /* --------- quarta section ---------- */
-
-
-
-
 
 .pra-quem{
   background:  linear-gradient(135deg, var(--offbuel), var(--offpink) );
@@ -474,6 +510,11 @@ padding: 60px 7%;
   font-size: 25px;
  
 }
+
+
+
+
+
 
 
 /* --------------------------- quinta section -------------------------- */
@@ -504,6 +545,118 @@ padding: 60px 7%;
   font-size: 25px;
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------ sexta section ------------------------------- */
+
+.comunidade{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 60px 7%;
+  gap: 30px;
+  background: linear-gradient(153deg, var(--offbuel), var(--offpink) ) ;
+}
+
+.comunidade .left .textleft{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.comunidade .left h2{
+  color: var(--blue);
+  font-size: 50px;
+  width: 500px;
+}
+.comunidade .left h3{
+  color: var(--blue);
+  font-size: 30px;
+  width: 500px;
+}
+.comunidade .left p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.comunidade .left strong{
+  color: var(--green);
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+/* ------------------------------ setima section ------------------------------- */
+
+.diploma{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 60px 7%;
+  gap: 30px;
+  background: linear-gradient(18deg, var(--offbuel), var(--offpink) ) ;
+}
+.diploma .right h2{
+  color: var(--blue);
+  font-size: 50px;
+  width: 500px;
+}
+.diploma .right p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.diploma .right strong{
+  color: var(--green);
+  font-size: 25px;
+}
+.diploma img{
+  max-width: 500px;
+}
+
+
+
+
+
+
+
+/* ------------------------------ setima section ------------------------------- */
+
+
+.estagio{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 60px 7%;
+  gap: 30px;
+  background: linear-gradient(159deg, var(--offbuel), var(--offpink) ) ;
+}
+.estagio h2{
+  color: var(--blue);
+  font-size: 50px;
+  width: 750px;
+}
+.estagio p{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.estagio img{
+  max-width: 350px;
+}
+
+
 
 
 
