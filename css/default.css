@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+::before {
+padding: 0;
+margin: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;
+}
+
+html, body{
+overflow-x: hidden;
+}
+
+:root {
+--pink: #ff4ca1;
+--darkpink: #761248 ;
+--offpink: #200313;
+--pinktext: #E93B8E;
+--green: #6EF458;
+--darkgree: #00610d ;
+--offgree: #001e05;
+--blue: #28B6FA;
+--darkblue: #00058a;
+--offbuel: #06072a;
+--lightblue: rgb(185, 226, 248);
+--background: #28282a;
+--surface-color: #fff;
+--curve: 40;
+--primary-btn-gradient: linear-gradient(90deg, #FF4CA1 0% ,#5533BB 100%);
+--insc-btn-color: #6EF458
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 152, 158);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(7, 12, 14);
+}
+
+.pad{
+padding: 0 7%;
+
+}
+
+
+/* --------------------- Classes ---------------------  */
+
+/* ---------- Align ----------  */
+
+.left, .right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- Align ----------  */
