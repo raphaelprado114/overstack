@@ -1,0 +1,105 @@
+/* From uiverse.io by @kirzin */
+  .btn-primary {
+    text-decoration: none;
+    position: absolute;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    color: #fff;
+    padding: 0px 40px;
+    line-height: 2em;
+    text-align: center;
+    background: var(--primary-btn-gradient);
+    border-radius: 8px;
+    z-index: 1;
+    cursor: pointer;
+   }
+   
+   .btn-primary:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   .btn-primary:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: var(--primary-btn-gradient);
+    background-size: 100%;
+    border-radius: 8px;
+    transition: 1s;
+   }
+   
+   .btn-primary:hover::before {
+    filter: blur(20px);
+   }
+   
+   .btn-primary:active {
+    background: var(--primary-btn-gradient);
+   }
+
+
+   /* Button Insc */
+
+   .btn-insc {
+    text-decoration: none;
+    border: solid 1px var(--insc-btn-color);
+    font-size: 15px;
+    font-family: inherit;
+    color: #fff;
+    padding: 8px 35px;
+    line-height: 2em;
+    text-align: center;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+   }
+
+   .btn-insc:hover{
+    color: #000
+   }
+
+   .btn-insc:before {
+    content: '';
+    background: #6EF458;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   } 
+   
+   .btn-insc:hover:before {
+    width: 100%;
+    transition: .5s;
+   }
+
+
+
+
+   @media (max-width: 800px) {
+    .btn-insc{
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+   }
