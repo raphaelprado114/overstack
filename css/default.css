@@ -12,6 +12,11 @@ font-family: 'Nunito', sans-serif;
 
 html, body{
 overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+:target{
+    scroll-margin-top: 100px;
 }
 
 :root {
