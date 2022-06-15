@@ -104,6 +104,15 @@ p{
   justify-content: center;
 }
 
+.left{
+  align-items: flex-start;
+}
+
+.right{
+  align-items: flex-end;
+}
+
+
 /* ---------- Align ----------  */
 
 
@@ -139,6 +148,12 @@ p{
   transition: 1s;
 }
 
+[data-anime="top4"] {
+  transform: translate3d(0, 300px, 0);
+  opacity: 0;
+  transition: 1s;
+}
+
 
 .animate {
   opacity: 1;
@@ -146,3 +161,16 @@ p{
 }
 
 /* ---------- Animation ----------  */
+
+
+@media(max-width: 800px){
+  .left{
+    align-items: center;
+  }
+
+  .right{
+    align-items: center;
+  }
+  
+  
+}
