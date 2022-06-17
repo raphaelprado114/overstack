@@ -793,6 +793,10 @@ h2 {
   line-height: 38px;
 }
 
+.form-section p span{
+  color: var(--green)
+}
+
 .form-container{
   height: 90%;
   width: 90%;
