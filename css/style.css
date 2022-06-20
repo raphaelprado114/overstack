@@ -779,25 +779,21 @@ h2 {
 
 /* -------- form section -------- */
 
-.form-section{
+.form-section {
   background: linear-gradient(32deg, var(--offbuel), var(--offpink));
 }
 
-.form-section h2{
+.form-section h2 {
   max-width: 70%;
   padding-bottom: 20px;
 }
 
-.form-section p{
+.form-section p {
   max-width: 70%;
   line-height: 38px;
 }
 
-.form-section p span{
-  color: var(--green)
-}
-
-.form-container{
+.form-container {
   height: 90%;
   width: 90%;
   background: linear-gradient(135deg, var(--offbuel), var(--offpink) 40%);
@@ -809,12 +805,13 @@ h2 {
   flex-direction: column;
   transition: .5s;
 }
-.form-container:hover{
+
+.form-container:hover {
   box-shadow: 0px 0px 20px 0px #24ff00;
   transition: .5s;
 }
 
-.center-div{
+.center-div {
   min-width: 80%;
   height: fit-content;
 }
@@ -827,10 +824,10 @@ form {
   display: flex;
   flex-direction: column;
   gap: 30px;
- }
+}
 
 
- 
+
 form input {
   font-size: 16px;
   padding: 10px 10px 10px 5px;
@@ -841,22 +838,24 @@ form input {
   color: var(--green);
   position: relative;
   width: 100%;
- }
+}
 
 
- form .field{
+form .field {
   position: relative;
-  padding: 20px 0;
- }
+  padding: 10px 0;
+}
 
- form input:focus label{
+form input:focus label {
   margin-top: 50px;
 }
- 
- input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
   outline: none;
- }
- 
+}
+
 
 form label {
   color: var(--green);
@@ -866,16 +865,16 @@ form label {
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
- }
- 
+}
 
- input:focus{
+
+input:focus {
   color: var(--green);
- }
- 
+}
 
 
- input[type="submit"] {
+
+input[type="submit"] {
   text-decoration: none;
   position: absolute;
   border: none;
@@ -890,34 +889,57 @@ form label {
   z-index: 1;
   cursor: pointer;
   transition: .8s;
- }
- 
- input[type="submit"]:hover {
+}
+
+input[type="submit"]:hover {
   transform: scaleX(1.1) scaleY(1.2) skew(-10deg);
   transition: .8s;
   border: none;
- }
+}
 
 
- form ul li{
+form ul li {
   list-style: none;
   color: red !important;
- }
+}
+
+form select {
+  width: 100%;
+  border: solid 1px #6ef455;
+  background: transparent;
+  color: #6ef455;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  padding: 6px 5px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+form option {
+  background: #090728;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
 
 /* -------- form section -------- */
 
 
 /* -------- Texts -------- */
 
-.left h2, .left p,.right h2, .right p{
+.left h2,
+.left p,
+.right h2,
+.right p {
   text-align: left;
   width: 100% !important;
 }
 
-
 /* -------- Texts -------- */
-
-
 
 
 @media (min-width:800px) {
