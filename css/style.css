@@ -979,12 +979,43 @@ form option {
     max-width: 100%;
   }
 
-  .dominar p,  .comunidade .left p, .comunidade .left h2, .diploma .right h2{
-    max-width: 90%;
+  .dominar p,  .comunidade .left p, .comunidade .left h2 {
+    
     text-align: justify;
+    padding-top: 30px;
+
   }
+
+  .dominar h2 {
+    max-width: 100%;
+}
+
+.diploma .right h2 {
+  /* text-align: justify; */
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.comunidade .left h3 {
+  padding-top: 20px;
+}
   .form-section p, .form-section h2 {
     max-width: 90%;
-    text-align: justify;
+    padding-bottom: 30px;
 }
+
+.input[type="submit"] {
+  margin-top: 20px;
+}
+.left h2 {
+  padding-bottom: 20px;
+}
+
+.estagio p {
+  margin-bottom: 40px;
+}
+.diploma img {
+  max-width: 100%;
+}
+
 }
