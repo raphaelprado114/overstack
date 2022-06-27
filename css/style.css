@@ -929,6 +929,101 @@ form option {
 /* -------- form section -------- */
 
 
+
+/* ----------------------- faq ----------------- */
+#faq-2 {
+  padding: 80px 7%;
+  background: linear-gradient(169deg, var(--offbuel), var(--offpink) 40%, var(--offbuel));
+}
+
+#faq-2 .titleFaq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#faq-2 .titleFaq h2 {
+  max-width: 485px;
+  padding-bottom: 80px;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--green);
+}
+
+#faq-2 .titleFaq p {
+  max-width: 282px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--green);
+}
+
+#faq-2 .question {
+  cursor: pointer;
+  padding: 2em 0;
+  border-top: 1px solid var(--pink);
+  border-bottom: 1px solid var(--pink);
+}
+
+#faq-2 .question span {
+  font-size: 20px;
+  padding-right: 40px;
+  color: var(--green);
+}
+
+#faq-2 .question strong {
+  font-size: 20px;
+  max-width: 600px;
+  color: var(--green);
+}
+
+#faq-2 .answer {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 24px 82px;
+  display: none;
+  color:  var(--green);
+}
+
+#faq-2 .answer a {
+  font-weight: 700;
+  color:  var(--ice);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#faq-2 .active {
+  display: block!important;
+}
+
+#faq-2 .question-wrapper .active {
+  display: block;
+}
+
+@media(max-width: 720px){
+  #faq-2 .titleFaq {
+    flex-direction: column;
+  }
+  
+  #faq-2 .answer {
+    padding: 26px 7px;
+  }
+  
+  #faq-2 {
+    padding: 90px 5% 90px;
+  }
+  
+  #faq-2 .titleFaq h2 {
+   padding-bottom: 0;
+  }
+  
+  #faq-2 .question-wrapper {
+    margin-top: 30px;
+  }
+}
+
+/* ----------------------- faq ----------------- */
+
+
 /* -------- Texts -------- */
 
 .left h2,
