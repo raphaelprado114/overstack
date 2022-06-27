@@ -84,3 +84,13 @@ btnScroll.addEventListener('click', () => {
 })
 
 
+
+
+  
+  function toggleAnswer(div) {
+    const divAnswer = div.nextElementSibling
+  
+    divAnswer.classList.toggle('active')
+  }
+  
+  
