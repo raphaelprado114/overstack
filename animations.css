@@ -1,0 +1,21 @@
+@keyframes fadeDownTop {
+    from{
+        opacity: 0;
+        transform: translate(0, 500px) scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+@keyframes fadeTopDown {
+    from{
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+    to{
+        opacity: 0;
+        transform: translate(0, 500px) scale(0);
+    }
+}
